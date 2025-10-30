@@ -20,9 +20,9 @@ pipeline {
             steps {
                 sh './jenkins/scripts/deliver.sh'
             }
-        stage('Penultimate'){
+        stage('Penultimate') {
             steps{
-                echo "We're almost there!"
+                echo 'Almost there!'
         }
         stage('Complete') {
             steps {
