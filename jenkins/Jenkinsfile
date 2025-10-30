@@ -23,6 +23,7 @@ pipeline {
         stage('Penultimate') {
             steps{
                 echo 'Almost there!'
+            }
         }
         stage('Complete') {
             steps {
